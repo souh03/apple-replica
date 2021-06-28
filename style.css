@@ -62,7 +62,10 @@ body {
  a.souh{
   text-align: center;
   font-size:21px;
-  word-spacing: 7px; 
+  
+}
+.souh{
+  margin-left: 30px;
 }
 
 .img-1{
@@ -113,6 +116,10 @@ h3{
   color:grey;
   font-size: 18px;
 }
+.ipadpro a+a{
+  margin-left: 20px;
+
+}
 .imac{
   white-space: nowrap;
   text-align: center;
@@ -132,7 +139,10 @@ h5{
   font-size:20px ;
   font-weight: lighter;
   margin: 10px;
+}
 
+.imac a+a{
+  margin-left: 20px;
 }
 .watch{
   white-space: nowrap;
@@ -145,7 +155,7 @@ text-align: center;
 }
 
 h7 {
-  color: #f5f5f7;
+  color:black;
   font-size:40px ;
   font-weight: bold;
   margin: 10px;
@@ -158,10 +168,12 @@ h6{
   font-weight: lighter;
 }
 .watch p{ 
-  color: #f5f5f7;
+  color: black;
   font-size: 18px;
-  margin: 10px;
-  
+  margin: 10px; 
+}
+.watch a+a{
+  margin-left: 20px;
 }
 .imac-watch{
   display:flex;
@@ -184,7 +196,7 @@ h6{
   margin-left: -320px;
   
 }
-@media(max-width:800px){
+@media(max-width:600px){
   header ul{
     display: flex;
     font-size: 10px;
